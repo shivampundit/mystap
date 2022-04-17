@@ -1,0 +1,251 @@
+.projectInfo {
+  font-family: "Inter";
+  margin-top: 20px;
+
+  .projectNameContainer {
+    display: flex;
+
+    .projectName {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      color: #3d3c3c;
+    }
+    .editProject {
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #3b5998;
+      cursor: pointer;
+    }
+    .deleteProject {
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #a81900;
+      cursor: pointer;
+    }
+    .projectSelect {
+      border: none;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      color: #3d3c3c;
+      cursor: pointer;
+    }
+  }
+  .buildingName {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #3d3c3c;
+  }
+  .city {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #3d3c3c;
+  }
+}
+
+.roomsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: "Inter";
+  margin-bottom: 18px;
+}
+.roomsContainer {
+  display: flex;
+  overflow: auto;
+  align-items: center;
+
+  .rooms {
+    background: #ebebeb;
+    border-radius: 6px;
+    min-height: 35px;
+    min-width: 140px !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #3d3c3c;
+    font-family: "Inter", sans-serif;
+    border: none;
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+  .activeRoom {
+    color: #3b5998;
+    background: #c7d9ff 0% 0% no-repeat padding-box !important;
+  }
+}
+
+.addImagesButton {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  background: transparent;
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  min-height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #3b5998;
+  cursor: pointer;
+  padding: 0 15px;
+  border: 1px solid #3b5998;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+  .imageBox {
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+  }
+  .image {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    border: 2px solid #a7a7a7;
+    object-fit: cover;
+  }
+  .selectedImage {
+    border: 3px solid #3b5998;
+  }
+  .tick {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9;
+    width: 100%;
+    max-width: 25px;
+    height: 25px;
+  }
+}
+
+.imageBox p {
+  font-size: 13px;
+  background: #eb9b22;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  margin-top: -8px;
+  margin-bottom: 5px;
+  padding: 10px 0 5px;
+  color: #fff !important;
+}
+
+.selectedImagetag {
+  background: #3b5998 !important;
+}
+
+.featuredBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+  font-family: "inter";
+  font-size: 14px;
+}
+
+.activeFeature {
+  color: #fff;
+  background: #29945e;
+}
+
+@media screen and (max-width: 767px) {
+  .projectNameContainer {
+    justify-content: space-between;
+  }
+  .roomsWrapper {
+    flex-wrap: wrap;
+  }
+  .imageBox p {
+    margin-top: -10px;
+  }
+  // .addImagesButton {
+  //   width: 100%;
+  //   margin-top: 15px;
+  // }
+  .mobileposition .d-flex.justify-content-between {
+    justify-content: center !important;
+    margin: 0 auto;
+  }
+  .addImagesButton {
+    font-weight: 400;
+    min-height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+  }
+  .roomsContainer .room {
+    min-width: 140px !important;
+  }
+  .imagesContainer .image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 6px;
+  }
+  // .roomsWrapper .roomsContainer .rooms {
+  //   border: 1px solid #000000;
+  //   box-sizing: border-box;
+  //   border-radius: 6px;
+  //   background-color: transparent;
+  //   font-weight: 600;
+  //   font-size: 14px;
+  //   color: #000000;
+  // }
+  // .roomsWrapper .roomsContainer .activeRoom {
+  //   background: #8285d7 !important;
+  //   border-radius: 6px;
+  //   color: #fff;
+  //   border-color: #8285d7;
+  //   opacity: 1;
+  // }
+  .imageBox {
+    margin-right: 10px !important;
+    margin-left: 10px;
+  }
+  .upload-main .imageBox p {
+    font-size: 12px;
+  }
+  .imageBox p {
+    font-size: 10px !important;
+    padding: 5px 0;
+  }
+  .mobileposition .d-flex.justify-content-between {
+    justify-content: center !important;
+  }
+  .mobileposition .d-flex.justify-content-between {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .imageBox {
+    margin-right: 5px !important;
+    margin-left: 5px;
+  }
+  .projectInfo {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .addImagesButton {
+    font-size: 12px;
+  }
+}

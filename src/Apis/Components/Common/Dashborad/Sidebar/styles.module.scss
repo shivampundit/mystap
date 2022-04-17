@@ -1,0 +1,61 @@
+.sidebarLead ul {
+  list-style: none;
+  padding: 30px 10px;
+}
+.sidebarLead ul li img:first-child {
+  margin-right: 12px;
+}
+.sidebarLead ul li {
+  padding: 10px 10px 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.activeMenu {
+  background-color: #5fa9af3c;
+}
+
+.sidebarLead ul li span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #3d3c3c;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 255px;
+  height: 100vh;
+  border-right: 1px solid #c0c0c0;
+}
+
+.completeProfile {
+  border: 1px solid #e7412b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 20px 25px;
+  text-align: center;
+  padding: 10px;
+}
+.completeProfile h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #3d3c3c;
+  font-family: "Inter", sans-serif;
+}
+.ulBoth a {
+  color: #3d3c3c;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar {
+    width: 0;
+    display: none;
+  }
+}

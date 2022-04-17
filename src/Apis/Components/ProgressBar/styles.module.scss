@@ -1,0 +1,23 @@
+.progressBar {
+  width: 10px;
+  height: 280px;
+  background-color: #dde3e9;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.completed {
+  width: 10px;
+  height: 90px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #2f4776;
+}
+
+.current {
+  width: 10px;
+  height: 90px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #3b5998;
+}

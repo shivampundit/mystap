@@ -1,0 +1,145 @@
+.footer {
+  background: #f2f2f2;
+  padding: 80px 0 0;
+}
+
+.footerLogo {
+  h2 {
+    font-size: 22px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+  }
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+  }
+}
+.menuFooter {
+  padding: 0;
+  list-style: none;
+
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    margin-top: 35px;
+  }
+
+  li {
+    padding: 5px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+
+    span {
+      font-weight: 500;
+    }
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+  }
+}
+.footerBottom h4 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.socialIcon img {
+  margin-right: 12px;
+}
+a:-webkit-any-link:focus-visible {
+  outline-offset: 0px !important;
+  outline: none;
+}
+.footer a {
+  text-decoration: none;
+}
+
+.emailBtn {
+  width: 100%;
+}
+
+.emailBtn input {
+  background: #ffffff;
+  border-radius: 4px;
+  height: 38px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .fullWidth {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .emailBtn {
+    width: 100%;
+  }
+  .emailBtn form .form-group {
+    margin-bottom: 12px;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+  .fullWidth {
+    width: 100% !important;
+  }
+  .pt-4.pb-4.text-center {
+    text-align: left !important;
+    padding: 0 0 20px !important;
+  }
+  .footer li span br {
+    display: none;
+  }
+  .footer .d-flex.mt-5.mb-5 {
+    margin: 25px 0 !important;
+  }
+  .footerLogo h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+  }
+  .footerLogo p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .menuFooter h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 23px;
+  }
+  .menuFooter li{
+    padding: 2px 0;
+  }
+  .footer button.know-more{
+    margin-top: 12px !important;
+  }
+ 
+}

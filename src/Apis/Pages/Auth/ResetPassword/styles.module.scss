@@ -1,0 +1,32 @@
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  font-family: "Inter";
+  width: 30%;
+}
+
+.input {
+  position: relative;
+
+  .eye {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8c8c;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .card {
+    width: 80%;
+  }
+}
